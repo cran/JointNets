@@ -3,9 +3,10 @@
 \name{diffee}
 \alias{diffee}
 \title{Fast and Scalable Learning of Sparse Changes in High-Dimensional Gaussian
-Graphical Model Structure}
+Graphical Model}
 \usage{
-diffee(C, D, lambda = 0.05, covType = "cov", thre = "soft")
+diffee(C, D, lambda = 0.05, covType = "cov", intertwined = FALSE,
+  thre = "soft")
 }
 \arguments{
 \item{C}{A input matrix for the 'control' group. It can be data matrix or
@@ -35,14 +36,16 @@ represents data directly) or use (when X elements are symmetric representing
 correlation matrices) the kendall's tau correlation matrices as input to the
 simule algorithm.}
 
+\item{intertwined}{indicate whether to use intertwined covariance matrix}
+
 \item{thre}{A parameter to decide which threshold function to use for
 \eqn{T_v}. If thre = "soft", it means that we choose soft-threshold function
 as \eqn{T_v}. If thre = "hard", it means that we choose hard-threshold
 function as \eqn{T_v}.}
 }
 \value{
-\item{diffNet}{A matrix of the estimated sparse changes between two
-Gaussian Graphical Models}
+\item{$graphs}{A matrix of the estimated sparse changes between two
+Gaussian Graphical Models} \item{$share}{null}
 }
 \description{
 Estimate DIFFerential networks via an Elementary Estimator under a
