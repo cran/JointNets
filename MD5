@@ -1,4 +1,4 @@
-3356d7b0fffbc1531b03689a45e07c32 *DESCRIPTION
+2cbcc747c579ca2f5ed5c6dbe4cdaf49 *DESCRIPTION
 3ee7b2fc47cb463271ceaa483aced00f *NAMESPACE
 1e915d0c595d26927e1e51c3c7ef4e95 *R/AUC.R
 89e3f5576c15425976fca83cfb56e517 *R/BIC.R
@@ -23,8 +23,7 @@ b2fe7ea0c205de216fcbd9bc135fb082 *R/make_title.R
 fd895b506bc09e4853a5cee7392ec690 *R/simule.R
 1c6fd1aa9a3d8181bffa5a82c0526a06 *R/train_valid_test_split.R
 db996a87a7fe0589a84349f21898bbb8 *R/wsimule.R
-6b1643d709205129e7f2477afeb225c3 *README.md
-f878bc87ea9a5e47c0f6d955e9673eb6 *build/partial.rdb
+2549b210bbb3060e8729eba74130eb0c *build/partial.rdb
 3165462e5f6858b160f4c8f56bcee3a2 *data/ABIDE_aal116_timeseries.rda
 0370ff275c6bdb853288bdc540b85d24 *data/aal116coordinates.rda
 73745ac141cc5b0f41916531e219e08e *data/cancer.rdata
